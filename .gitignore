@@ -1,0 +1,42 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Node
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+
+# Model files
+*.pkl
+*.joblib
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# SQLite agent checkpoints
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+
+# IDE and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archive files
+archive.zip
+
+# Keep the trained model
+!models/logistic_regression.pkl
