@@ -28,16 +28,19 @@ app = FastAPI(
     description="ML Model Monitoring and Investigation Platform",
     version="1.0.0"
 )
+
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:5173",
-        "https://model-ops-sentinel-9r1d5ob7q-sharvi.vercel.app"
+        "https://model-ops-sentinel-1cs8d0lvr-sharvi.vercel.app",
+        "https://model-ops-sentinel-9r1d5ob7q-sharvi.vercel.app",
     ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 @app.get("/")
 def root():
     return {
