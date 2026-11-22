@@ -1,4 +1,5 @@
 # ModelOps Sentinel 🚨
+[Live Demo](https://model-ops-sentinel-1cs8d0lvr-sharvi.vercel.app)
 
 ### An End-to-End MLOps Monitoring and AI-Powered Incident Investigation Platform
 
